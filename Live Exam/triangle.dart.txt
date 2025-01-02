@@ -1,0 +1,21 @@
+
+import 'dart:io';
+
+void triangle( double base, double height ){
+
+  double triangle_area = 0.5 * base * height ;
+
+  print ("Triangle Area : = $triangle_area square units ");
+}
+
+void main(){
+
+  stdout.write("\n\n Enter Triangle Base = ");
+  double base = double.parse(stdin.readLineSync()!);
+  stdout.write("Enter Triangle Base = ");
+  double height = double.parse(stdin.readLineSync()!);
+
+  triangle(base, height);
+
+
+}
